@@ -1217,6 +1217,14 @@ boolean zone_available(location loc)
 			retval = true;
 		}
 		break;
+	case $location[The Degrassi Knoll Garage]:
+	case $location[The Degrassi Knoll Bakery]:
+	case $location[The Degrassi Knoll Gym]:
+		if(!inKnollSign())
+		{
+			retval = true;
+		}
+		break;
 	case $location[The Dark Neck of the Woods]:
 	case $location[The Dark Heart of the Woods]:
 	case $location[The Dark Elbow of the Woods]:
